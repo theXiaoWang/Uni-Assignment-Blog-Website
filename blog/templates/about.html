@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>About</h1>
+     <article class="media content-section">
+        
+            <div class="media-body">
+                <p class="article-content">
+                <img id="aboutMeImg" class='rounded-circle article-img'src="{{ url_for('static', filename='assets/about_me.jpg') }}" >
+                    Hello, my name is Xiao Wang. Welcome to my blog site. This this my first time building a blog from scratch. Although this is not perfect and there are more functions yet to be added, I really enjoy the process of learning to be a web developer. So I will keep updating Myblog until it is a full-fledged functional website.
+                    
+                    This blog is mainly builted by using Python, Flask, Html, CSS, and Bootstrap.
+
+                    You can follow me on social media at the bottom. If you have any questions or suggestions, please drop me an email by the link at the bottom as well. 
+
+                    Thank you for viewing Myblog!
+                </p>
+            </div>
+    </article>
+{% endblock content %}
+
